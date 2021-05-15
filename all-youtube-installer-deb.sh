@@ -32,7 +32,7 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 apt-get update && sudo apt-get install yarn
 
 # Install NodeJS
-wget -qO- https://deb.nodesource.com/setup_9.x | bash -
+wget -qO- https://deb.nodesource.com/setup_14.x | bash -
 apt-get -y install nodejs
 curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
